@@ -1,0 +1,173 @@
+Script started on Tue 12 Mar 2019 09:57:26 PM EDT
+]777;notify;Command completed;exit]0;stodkar@localhost:~/Documents/Auburn University/Advance Topics in Operating Systems/project3]7;file://localhost.localdomain/home/stodkar/Documents/Auburn%20University/Advance%20Topics%20in%20Operating%20Systems/project3[?1034h[stodkar@localhost project3]$ ./aubatch 
+Welcome to Satyams's batch job scheduler Version 1.0
+Type 'help' to find more about AUBatch commands.
+
+>test sample_job sjf 20 20 1 5
+
+> run sample_job 4 4
+Job sample_job was submitted.
+Total number of jobs in the queue: 1
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 3 19
+Job sample_job was submitted.
+Total number of jobs in the queue: 2
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 4 10
+Job sample_job was submitted.
+Total number of jobs in the queue: 3
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 2 9
+Job sample_job was submitted.
+Total number of jobs in the queue: 4
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 5 10
+Job sample_job was submitted.
+Total number of jobs in the queue: 5
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 3 19
+Job sample_job was submitted.
+Total number of jobs in the queue: 6
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 1 4
+Job sample_job was submitted.
+Total number of jobs in the queue: 6
+Expected waiting time: 5.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 4 7
+Job sample_job was submitted.
+Total number of jobs in the queue: 7
+Expected waiting time: 10.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 1 15
+Job sample_job was submitted.
+Total number of jobs in the queue: 8
+Expected waiting time: 15.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 3 16
+Job sample_job was submitted.
+Total number of jobs in the queue: 9
+Expected waiting time: 20.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 2 14
+Job sample_job was submitted.
+Total number of jobs in the queue: 10
+Expected waiting time: 25.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 3 9
+Job sample_job was submitted.
+Total number of jobs in the queue: 11
+Expected waiting time: 30.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 3 5
+Job sample_job was submitted.
+Total number of jobs in the queue: 12
+Expected waiting time: 35.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 3 13
+Job sample_job was submitted.
+Total number of jobs in the queue: 13
+Expected waiting time: 40.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 3 19
+Job sample_job was submitted.
+Total number of jobs in the queue: 14
+Expected waiting time: 45.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 5 0
+Job sample_job was submitted.
+Total number of jobs in the queue: 15
+Expected waiting time: 50.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 3 12
+Job sample_job was submitted.
+Total number of jobs in the queue: 15
+Expected waiting time: 65.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 5 9
+Job sample_job was submitted.
+Total number of jobs in the queue: 16
+Expected waiting time: 80.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 4 7
+Job sample_job was submitted.
+Total number of jobs in the queue: 17
+Expected waiting time: 95.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 2 16
+Job sample_job was submitted.
+Total number of jobs in the queue: 18
+Expected waiting time: 110.000000 seconds
+Scheduling Policy: SJF
+>list
+
+Total number of jobs in the queue: 17
+Scheduling Policy: SJF
+Name	CPU_Time	Pri	Arrival_time	Progress
+sample_job	2		9		21:57:36	Waiting
+sample_job	2		14		21:57:46	Waiting
+sample_job	3		19		21:57:34	Waiting
+sample_job	3		19		21:57:38	Waiting
+sample_job	3		16		21:57:45	Waiting
+sample_job	3		9		21:57:47	Waiting
+sample_job	3		5		21:57:48	Waiting
+sample_job	3		13		21:57:49	Waiting
+sample_job	3		19		21:57:50	Waiting
+sample_job	3		12		21:57:53	Waiting
+sample_job	4		10		21:57:35	Waiting
+sample_job	4		7		21:57:43	Waiting
+sample_job	4		7		21:57:55	Waiting
+sample_job	5		10		21:57:37	Waiting
+sample_job	5		0		21:57:51	Waiting
+sample_job	5		9		21:57:54	Waiting
+sample_job	2		16		21:57:56	Waiting
+>list
+
+Total number of jobs in the queue: 11
+Scheduling Policy: SJF
+Name	CPU_Time	Pri	Arrival_time	Progress
+sample_job	3		5		21:57:48	Waiting
+sample_job	3		13		21:57:49	Waiting
+sample_job	3		19		21:57:50	Waiting
+sample_job	3		12		21:57:53	Waiting
+sample_job	4		10		21:57:35	Waiting
+sample_job	4		7		21:57:43	Waiting
+sample_job	4		7		21:57:55	Waiting
+sample_job	5		10		21:57:37	Waiting
+sample_job	5		0		21:57:51	Waiting
+sample_job	5		9		21:57:54	Waiting
+sample_job	2		16		21:57:56	Waiting
+>list
+
+Total number of jobs in the queue: 9
+Scheduling Policy: SJF
+Name	CPU_Time	Pri	Arrival_time	Progress
+sample_job	3		19		21:57:50	Waiting
+sample_job	3		12		21:57:53	Waiting
+sample_job	4		10		21:57:35	Waiting
+sample_job	4		7		21:57:43	Waiting
+sample_job	4		7		21:57:55	Waiting
+sample_job	5		10		21:57:37	Waiting
+sample_job	5		0		21:57:51	Waiting
+sample_job	5		9		21:57:54	Waiting
+sample_job	2		16		21:57:56	Waiting
+>lid  ist
+
+Total number of jobs in the queue: 0
+Scheduling Policy: SJF
+Name	CPU_Time	Pri	Arrival_time	Progress
+>quit
+
+Total jobs submitted : 20
+Average waiting time : 114.199997
+Average turn around time : 788.849976
+Throughput : 0.001268]777;notify;Command completed;./aubatch ]0;stodkar@localhost:~/Documents/Auburn University/Advance Topics in Operating Systems/project3]7;file://localhost.localdomain/home/stodkar/Documents/Auburn%20University/Advance%20Topics%20in%20Operating%20Systems/project3[stodkar@localhost project3]$ exit
+exit
+
+Script done on Tue 12 Mar 2019 10:02:01 PM EDT

@@ -1,0 +1,83 @@
+Script started on Tue 12 Mar 2019 10:59:44 PM EDT
+]777;notify;Command completed;exit]0;stodkar@localhost:~/Documents/Auburn University/Advance Topics in Operating Systems/project3]7;file://localhost.localdomain/home/stodkar/Documents/Auburn%20University/Advance%20Topics%20in%20Operating%20Systems/project3[?1034h[stodkar@localhost project3]$ exit./aubatch [6Pexit./aubatch 
+Welcome to Satyams's batch job scheduler Version 1.0
+Type 'help' to find more about AUBatch commands.
+
+>test sample_job sjf 10 20 1 5
+
+> run sample_job 4 4
+Job sample_job was submitted.
+Total number of jobs in the queue: 1
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 3 19
+Job sample_job was submitted.
+Total number of jobs in the queue: 2
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 4 10
+Job sample_job was submitted.
+Total number of jobs in the queue: 3
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 2 9
+Job sample_job was submitted.
+Total number of jobs in the queue: 4
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 5 10
+Job sample_job was submitted.
+Total number of jobs in the queue: 4
+Expected waiting time: 7.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 3 19
+Job sample_job was submitted.
+Total number of jobs in the queue: 5
+Expected waiting time: 14.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 1 4
+Job sample_job was submitted.
+Total number of jobs in the queue: 6
+Expected waiting time: 21.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 4 7
+Job sample_job was submitted.
+Total number of jobs in the queue: 7
+Expected waiting time: 28.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 1 15
+Job sample_job was submitted.
+Total number of jobs in the queue: 8
+Expected waiting time: 35.000000 seconds
+Scheduling Policy: SJF
+> run sample_job 3 16
+Job sample_job was submitted.
+Total number of jobs in the queue: 8
+Expected waiting time: 48.000000 seconds
+Scheduling Policy: SJF
+>list
+Total number of jobs in the queue: 8
+Scheduling Policy: SJF
+Name	CPU_Time	Pri	Arrival_time	Progress
+sample_job	1		15		23:00:09	Waiting
+sample_job	2		9		22:59:56	Waiting
+sample_job	3		19		22:59:52	Waiting
+sample_job	3		19		23:00:03	Waiting
+sample_job	4		10		22:59:54	Waiting
+sample_job	4		7		23:00:07	Waiting
+sample_job	5		10		23:00:01	Waiting
+sample_job	3		16		23:00:12	Waiting
+>list
+
+Total number of jobs in the queue: 0
+Scheduling Policy: SJF
+Name	CPU_Time	Pri	Arrival_time	Progress
+>quit
+
+Total jobs submitted : 10
+Average waiting time : 52.599998
+Average turn around time : 195.000000
+Throughput : 0.005128]777;notify;Command completed;./aubatch ]0;stodkar@localhost:~/Documents/Auburn University/Advance Topics in Operating Systems/project3]7;file://localhost.localdomain/home/stodkar/Documents/Auburn%20University/Advance%20Topics%20in%20Operating%20Systems/project3[stodkar@localhost project3]$ ./aubatch [6Pexit./aubatch [6Pexit./aubatch [6Pexit
+exit
+
+Script done on Tue 12 Mar 2019 11:08:00 PM EDT

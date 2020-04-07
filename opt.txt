@@ -1,0 +1,100 @@
+[stodkar@localhost project3]$ ./aubatch 
+Welcome to Satyams's batch job scheduler Version 1.0
+Type 'help' to find more about AUBatch commands.
+
+>run p 7 1
+Job p was submitted.
+Total number of jobs in the queue: 1
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: FCFS
+>run p 2 5
+Job p was submitted.
+Total number of jobs in the queue: 2
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: FCFS
+>run p 3 1
+Job p was submitted.
+Total number of jobs in the queue: 2
+Expected waiting time: 5.000000 seconds
+Scheduling Policy: FCFS
+>list
+
+Total number of jobs in the queue: 2
+Scheduling Policy: FCFS
+Name	CPU_Time	Pri	Arrival_time	Progress
+p	2		5		23:54:47	Waiting
+p	3		1		23:54:54	Waiting
+>list
+
+Total number of jobs in the queue: 0
+Scheduling Policy: FCFS
+Name	CPU_Time	Pri	Arrival_time	Progress
+>quit
+
+Total jobs submitted : 3
+Average waiting time : 14.666667
+Average turn around time : 27.666666
+Throughput : 0.036145[stodkar@localhost project3]$ 
+
+###
+
+
+[stodkar@localhost project3]$ ./aubatch 
+Welcome to Satyams's batch job scheduler Version 1.0
+Type 'help' to find more about AUBatch commands.
+
+>sjf
+
+Scheduling policy is switched to SJF. All the 0 waiting jobs have been rescheduled.
+>run p 7 1
+Job p was submitted.
+Total number of jobs in the queue: 1
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: SJF
+>run p 5 2
+Job p was submitted.
+Total number of jobs in the queue: 2
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: SJF
+>run p 3 1
+Job p was submitted.
+Total number of jobs in the queue: 2
+Expected waiting time: 5.000000 seconds
+Scheduling Policy: SJF
+>quit
+
+Total jobs submitted : 3
+Average waiting time : 16.000000
+Average turn around time : 30.333334
+Throughput : 0.032967[stodkar@localhost project3]$ 
+
+###
+
+[stodkar@localhost project3]$ ./aubatch 
+Welcome to Satyams's batch job scheduler Version 1.0
+Type 'help' to find more about AUBatch commands.
+
+>priority
+
+Scheduling policy is switched to PRIORITY. All the 0 waiting jobs have been rescheduled.
+>run p 7 1
+Job p was submitted.
+Total number of jobs in the queue: 1
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: PRIO
+>run p 5 2
+rJob p was submitted.
+Total number of jobs in the queue: 1
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: PRIO
+>un p 3 1
+Job p was submitted.
+Total number of jobs in the queue: 2
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: PRIO
+>quit
+
+Total jobs submitted : 3
+Average waiting time : 10.666667
+Average turn around time : 19.000000
+Throughput : 0.052632[stodkar@localhost project3]$ 

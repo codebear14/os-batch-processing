@@ -1,0 +1,35 @@
+run p 7 1
+run p 5 2
+run p 3 1
+
+test sample_job fcfs 5 20 1 5		0.018727	
+test sample_job fcfs 10 20 1 5		0.004095
+test sample_job fcfs 15 20 1 5		0.002221		
+test sample_job fcfs 20 20 1 5		0.001147
+
+test sample_job sjf 5 20 1 5		0.013158			
+test sample_job sjf 10 20 1 5		0.005066	
+test sample_job sjf 15 20 1 5		0.002161		
+test sample_job sjf 20 20 1 5		0.001268
+
+test sample_job priority 5 20 1 5	0.014493
+test sample_job priority 10 20 1 5	0.004124
+test sample_job priority 15 20 1 5	0.002030
+test sample_job priority 20 20 1 5	0.001257
+
+test sample_job fcfs 5 20 1 5		0.021739
+test sample_job fcfs 10 20 1 5		0.004474
+test sample_job fcfs 15 20 1 5		0.002521
+test sample_job fcfs 20 20 1 5		0.001277
+
+test sample_job sjf 5 20 1 5		0.023041
+test sample_job sjf 10 20 1 5		0.005128
+test sample_job sjf 15 20 1 5		0.002479
+test sample_job sjf 20 20 1 5		0.001385
+
+test sample_job fcfs 5 20 1 5		0.014793
+test sample_job fcfs 10 20 1 5		0.005537
+test sample_job fcfs 15 20 1 5		0.002171
+test sample_job fcfs 20 20 1 5		0.001425
+
+

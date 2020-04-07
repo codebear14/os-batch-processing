@@ -1,0 +1,114 @@
+Script started on Tue 12 Mar 2019 10:41:43 PM EDT
+]777;notify;Command completed;exit]0;stodkar@localhost:~/Documents/Auburn University/Advance Topics in Operating Systems/project3]7;file://localhost.localdomain/home/stodkar/Documents/Auburn%20University/Advance%20Topics%20in%20Operating%20Systems/project3[?1034h[stodkar@localhost project3]$ exit./aubatch 
+Welcome to Satyams's batch job scheduler Version 1.0
+Type 'help' to find more about AUBatch commands.
+
+>test sample_job fcfs 15 20 1 5
+
+> run sample_job 4 4
+Job sample_job was submitted.
+Total number of jobs in the queue: 1
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 3 19
+Job sample_job was submitted.
+Total number of jobs in the queue: 1
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 4 10
+Job sample_job was submitted.
+Total number of jobs in the queue: 2
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 2 9
+Job sample_job was submitted.
+Total number of jobs in the queue: 3
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 5 10
+Job sample_job was submitted.
+Total number of jobs in the queue: 4
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 3 19
+Job sample_job was submitted.
+Total number of jobs in the queue: 5
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 1 4
+Job sample_job was submitted.
+Total number of jobs in the queue: 5
+Expected waiting time: 10.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 4 7
+Job sample_job was submitted.
+Total number of jobs in the queue: 6
+Expected waiting time: 20.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 1 15
+Job sample_job was submitted.
+Total number of jobs in the queue: 7
+Expected waiting time: 30.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 3 16
+Job sample_job was submitted.
+Total number of jobs in the queue: 8
+Expected waiting time: 40.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 2 14
+Job sample_job was submitted.
+Total number of jobs in the queue: 9
+Expected waiting time: 50.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 3 9
+Job sample_job was submitted.
+Total number of jobs in the queue: 9
+Expected waiting time: 81.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 3 5
+Job sample_job was submitted.
+Total number of jobs in the queue: 10
+Expected waiting time: 112.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 3 13
+Job sample_job was submitted.
+Total number of jobs in the queue: 11
+Expected waiting time: 143.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 3 19
+Job sample_job was submitted.
+Total number of jobs in the queue: 12
+Expected waiting time: 174.000000 seconds
+Scheduling Policy: FCFS
+>list
+Total number of jobs in the queue: 12
+Scheduling Policy: FCFS
+Name	CPU_Time	Pri	Arrival_time	Progress
+sample_job	2		9		22:42:10	Waiting
+sample_job	5		10		22:42:12	Waiting
+sample_job	3		19		22:42:14	Waiting
+sample_job	1		4		22:42:19	Waiting
+sample_job	4		7		22:42:21	Waiting
+sample_job	1		15		22:42:23	Waiting
+sample_job	3		16		22:42:25	Waiting
+sample_job	2		14		22:42:27	Waiting
+sample_job	3		9		22:42:33	Waiting
+sample_job	3		5		22:42:35	Waiting
+sample_job	3		13		22:42:37	Waiting
+sample_job	3		19		22:42:39	Waiting
+>ld idt
+Command not found, Type help to display menu
+>lidt  st
+
+Total number of jobs in the queue: 0
+Scheduling Policy: FCFS
+Name	CPU_Time	Pri	Arrival_time	Progress
+>ui  quit
+
+Total jobs submitted : 15
+Average waiting time : 72.933334
+Average turn around time : 396.666656
+Throughput : 0.002521]777;notify;Command completed;./aubatch ]0;stodkar@localhost:~/Documents/Auburn University/Advance Topics in Operating Systems/project3]7;file://localhost.localdomain/home/stodkar/Documents/Auburn%20University/Advance%20Topics%20in%20Operating%20Systems/project3[stodkar@localhost project3]$ exit
+exit
+
+Script done on Tue 12 Mar 2019 10:46:13 PM EDT

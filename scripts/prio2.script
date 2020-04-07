@@ -1,0 +1,86 @@
+Script started on Tue 12 Mar 2019 10:04:51 PM EDT
+]777;notify;Command completed;exit]0;stodkar@localhost:~/Documents/Auburn University/Advance Topics in Operating Systems/project3]7;file://localhost.localdomain/home/stodkar/Documents/Auburn%20University/Advance%20Topics%20in%20Operating%20Systems/project3[?1034h[stodkar@localhost project3]$ test sample_job priority 10 20 1 5[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit./aubatch [6Pexit./aubatch 
+Welcome to Satyams's batch job scheduler Version 1.0
+Type 'help' to find more about AUBatch commands.
+
+>test sample_job priority 10 20 1 5
+
+> run sample_job 4 4
+Job sample_job was submitted.
+Total number of jobs in the queue: 1
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: PRIO
+> run sample_job 3 19
+Job sample_job was submitted.
+Total number of jobs in the queue: 2
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: PRIO
+> run sample_job 4 10
+Job sample_job was submitted.
+Total number of jobs in the queue: 3
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: PRIO
+> run sample_job 2 9
+Job sample_job was submitted.
+Total number of jobs in the queue: 4
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: PRIO
+> run sample_job 5 10
+Job sample_job was submitted.
+Total number of jobs in the queue: 5
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: PRIO
+> run sample_job 3 19
+Job sample_job was submitted.
+Total number of jobs in the queue: 6
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: PRIO
+> run sample_job 1 4
+Job sample_job was submitted.
+Total number of jobs in the queue: 7
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: PRIO
+> run sample_job 4 7
+Job sample_job was submitted.
+Total number of jobs in the queue: 8
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: PRIO
+> run sample_job 1 15
+Job sample_job was submitted.
+Total number of jobs in the queue: 8
+Expected waiting time: 8.000000 seconds
+Scheduling Policy: PRIO
+> run sample_job 3 16
+Job sample_job was submitted.
+Total number of jobs in the queue: 9
+Expected waiting time: 16.000000 seconds
+Scheduling Policy: PRIO
+>list
+
+Total number of jobs in the queue: 8
+Scheduling Policy: PRIO
+Name	CPU_Time	Pri	Arrival_time	Progress
+sample_job	3		19		22:05:03	Waiting
+sample_job	1		15		22:05:10	Waiting
+sample_job	4		10		22:05:00	Waiting
+sample_job	5		10		22:05:02	Waiting
+sample_job	2		9		22:05:01	Waiting
+sample_job	4		7		22:05:05	Waiting
+sample_job	1		4		22:05:04	Waiting
+sample_job	3		16		22:05:11	Waiting
+>list
+
+Total number of jobs in the queue: 1
+Scheduling Policy: PRIO
+Name	CPU_Time	Pri	Arrival_time	Progress
+sample_job	3		16		22:05:11	Waiting
+>q
+
+Total jobs submitted : 10
+Average waiting time : 61.900002
+Average turn around time : 242.500000
+Throughput : 0.004124]777;notify;Command completed;./aubatch ]0;stodkar@localhost:~/Documents/Auburn University/Advance Topics in Operating Systems/project3]7;file://localhost.localdomain/home/stodkar/Documents/Auburn%20University/Advance%20Topics%20in%20Operating%20Systems/project3[stodkar@localhost project3]$ clear
+[3;J[H[2J]777;notify;Command completed;clear]0;stodkar@localhost:~/Documents/Auburn University/Advance Topics in Operating Systems/project3]7;file://localhost.localdomain/home/stodkar/Documents/Auburn%20University/Advance%20Topics%20in%20Operating%20Systems/project3[stodkar@localhost project3]$ exit
+exit
+
+Script done on Tue 12 Mar 2019 10:08:15 PM EDT

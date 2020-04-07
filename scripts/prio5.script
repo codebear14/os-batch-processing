@@ -1,0 +1,54 @@
+Script started on Tue 12 Mar 2019 11:24:55 PM EDT
+]777;notify;Command completed;script scripts/prio5.script]0;stodkar@localhost:~/Documents/Auburn University/Advance Topics in Operating Systems/project3]7;file://localhost.localdomain/home/stodkar/Documents/Auburn%20University/Advance%20Topics%20in%20Operating%20Systems/project3[?1034h[stodkar@localhost project3]$ ./aubatch 
+Welcome to Satyams's batch job scheduler Version 1.0
+Type 'help' to find more about AUBatch commands.
+
+>test sample_job fcfs 5 20 1 5
+
+> run sample_job 4 4
+Job sample_job was submitted.
+Total number of jobs in the queue: 1
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 3 19
+Job sample_job was submitted.
+Total number of jobs in the queue: 2
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 4 10
+Job sample_job was submitted.
+Total number of jobs in the queue: 3
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 2 9
+Job sample_job was submitted.
+Total number of jobs in the queue: 4
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 5 10
+Job sample_job was submitted.
+Total number of jobs in the queue: 4
+Expected waiting time: 6.000000 seconds
+Scheduling Policy: FCFS
+>list
+Total number of jobs in the queue: 4
+Scheduling Policy: FCFS
+Name	CPU_Time	Pri	Arrival_time	Progress
+sample_job	3		19		23:25:20	Waiting
+sample_job	4		10		23:25:22	Waiting
+sample_job	2		9		23:25:24	Waiting
+sample_job	5		10		23:25:28	Waiting
+>list
+
+Total number of jobs in the queue: 0
+Scheduling Policy: FCFS
+Name	CPU_Time	Pri	Arrival_time	Progress
+>quit
+
+Total jobs submitted : 5
+Average waiting time : 28.600000
+Average turn around time : 67.599998
+Throughput : 0.014793]777;notify;Command completed;./aubatch ]0;stodkar@localhost:~/Documents/Auburn University/Advance Topics in Operating Systems/project3]7;file://localhost.localdomain/home/stodkar/Documents/Auburn%20University/Advance%20Topics%20in%20Operating%20Systems/project3[stodkar@localhost project3]$ ei[Kxit
+exit
+
+Script done on Tue 12 Mar 2019 11:27:18 PM EDT

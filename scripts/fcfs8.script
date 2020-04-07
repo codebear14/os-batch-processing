@@ -1,0 +1,160 @@
+Script started on Tue 12 Mar 2019 10:46:35 PM EDT
+]777;notify;Command completed;exit]0;stodkar@localhost:~/Documents/Auburn University/Advance Topics in Operating Systems/project3]7;file://localhost.localdomain/home/stodkar/Documents/Auburn%20University/Advance%20Topics%20in%20Operating%20Systems/project3[?1034h[stodkar@localhost project3]$ exit./aubatch 
+Welcome to Satyams's batch job scheduler Version 1.0
+Type 'help' to find more about AUBatch commands.
+
+>test sample_job fcfs 20 20 1 5
+
+> run sample_job 4 4
+Job sample_job was submitted.
+Total number of jobs in the queue: 1
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 3 19
+Job sample_job was submitted.
+Total number of jobs in the queue: 2
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 4 10
+Job sample_job was submitted.
+Total number of jobs in the queue: 3
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 2 9
+Job sample_job was submitted.
+Total number of jobs in the queue: 4
+Expected waiting time: 0.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 5 10
+Job sample_job was submitted.
+Total number of jobs in the queue: 4
+Expected waiting time: 7.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 3 19
+Job sample_job was submitted.
+Total number of jobs in the queue: 5
+Expected waiting time: 14.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 1 4
+Job sample_job was submitted.
+Total number of jobs in the queue: 6
+Expected waiting time: 21.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 4 7
+Job sample_job was submitted.
+Total number of jobs in the queue: 7
+Expected waiting time: 28.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 1 15
+Job sample_job was submitted.
+Total number of jobs in the queue: 8
+Expected waiting time: 35.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 3 16
+Job sample_job was submitted.
+Total number of jobs in the queue: 8
+Expected waiting time: 61.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 2 14
+Job sample_job was submitted.
+Total number of jobs in the queue: 9
+Expected waiting time: 87.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 3 9
+Job sample_job was submitted.
+Total number of jobs in the queue: 10
+Expected waiting time: 113.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 3 5
+Job sample_job was submitted.
+Total number of jobs in the queue: 11
+Expected waiting time: 139.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 3 13
+Job sample_job was submitted.
+Total number of jobs in the queue: 12
+Expected waiting time: 165.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 3 19
+Job sample_job was submitted.
+Total number of jobs in the queue: 12
+Expected waiting time: 221.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 5 0
+Job sample_job was submitted.
+Total number of jobs in the queue: 13
+Expected waiting time: 277.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 3 12
+Job sample_job was submitted.
+Total number of jobs in the queue: 14
+Expected waiting time: 333.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 5 9
+Job sample_job was submitted.
+Total number of jobs in the queue: 15
+Expected waiting time: 389.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 4 7
+Job sample_job was submitted.
+Total number of jobs in the queue: 16
+Expected waiting time: 445.000000 seconds
+Scheduling Policy: FCFS
+> run sample_job 2 16
+Job sample_job was submitted.
+Total number of jobs in the queue: 16
+Expected waiting time: 543.000000 seconds
+Scheduling Policy: FCFS
+>list
+Total number of jobs in the queue: 16
+Scheduling Policy: FCFS
+Name	CPU_Time	Pri	Arrival_time	Progress
+sample_job	5		10		22:46:59	Waiting
+sample_job	3		19		22:47:01	Waiting
+sample_job	1		4		22:47:03	Waiting
+sample_job	4		7		22:47:05	Waiting
+sample_job	1		15		22:47:07	Waiting
+sample_job	3		16		22:47:12	Waiting
+sample_job	2		14		22:47:14	Waiting
+sample_job	3		9		22:47:16	Waiting
+sample_job	3		5		22:47:18	Waiting
+sample_job	3		13		22:47:20	Waiting
+sample_job	3		19		22:47:26	Waiting
+sample_job	5		0		22:47:28	Waiting
+sample_job	3		12		22:47:30	Waiting
+sample_job	5		9		22:47:32	Waiting
+sample_job	4		7		22:47:34	Waiting
+sample_job	2		16		22:47:38	Waiting
+>list
+
+Total number of jobs in the queue: 12
+Scheduling Policy: FCFS
+Name	CPU_Time	Pri	Arrival_time	Progress
+sample_job	1		15		22:47:07	Waiting
+sample_job	3		16		22:47:12	Waiting
+sample_job	2		14		22:47:14	Waiting
+sample_job	3		9		22:47:16	Waiting
+sample_job	3		5		22:47:18	Waiting
+sample_job	3		13		22:47:20	Waiting
+sample_job	3		19		22:47:26	Waiting
+sample_job	5		0		22:47:28	Waiting
+sample_job	3		12		22:47:30	Waiting
+sample_job	5		9		22:47:32	Waiting
+sample_job	4		7		22:47:34	Waiting
+sample_job	2		16		22:47:38	Waiting
+> 	list
+Command not found, Type help to display menu
+>list
+
+Total number of jobs in the queue: 0
+Scheduling Policy: FCFS
+Name	CPU_Time	Pri	Arrival_time	Progress
+>clea    q
+
+Total jobs submitted : 20
+Average waiting time : 107.050003
+Average turn around time : 783.200012
+Throughput : 0.001277]777;notify;Command completed;./aubatch ]0;stodkar@localhost:~/Documents/Auburn University/Advance Topics in Operating Systems/project3]7;file://localhost.localdomain/home/stodkar/Documents/Auburn%20University/Advance%20Topics%20in%20Operating%20Systems/project3[stodkar@localhost project3]$ exit
+exit
+
+Script done on Tue 12 Mar 2019 10:53:58 PM EDT
